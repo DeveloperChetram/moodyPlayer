@@ -1,6 +1,6 @@
 
 var ImageKit = require("imagekit");
-require('dotenv').config()
+
 
 var imagekit = new ImageKit({
     publicKey : process.env.IMAGEKIT_PUBLIC_KEY,
